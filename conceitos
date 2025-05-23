@@ -1,0 +1,56 @@
+1. Apresentação
+Nome completo : Kevinn Anthony B Quaresma 
+
+
+Curso e semestre : GTI5NA
+
+
+Um parágrafo com uma breve descrição da sua experiência com a disciplina:
+
+
+
+2. O que é Quality Assurance (QA)?
+É o processo de verificar se um software está funcionando como deveria antes de ser entregue para o cliente ou usuário final.
+
+Explique com suas palavras o conceito de QA e sua importância no desenvolvimento de software?
+É o processo de garantir que um software funcione corretamente e sem erros antes de ser entregue ao usuário/ 
+ele envolve testes e revisões para identificar falhas e garantir que o sistema atenda aos requisitos esperados. 
+Sua importância está em evitar problemas futuros, melhorar a qualidade do produto e garantir uma boa experiência para o usuário.
+
+
+Use uma linguagem simples e acessível, como se estivesse explicando para alguém leigo:
+Quando a gente testa um programa antes de entregar, para ver se está funcionando direitinho. Assim, evitamos erros e deixamos o programa melhor para quem for usar.
+
+3. Conceitos Aprendidos Durante o Semestre
+Escreva um parágrafo explicando o que você aprendeu sobre:
+*Qualidade em software e cultura de qualidade
+*Tipos de testes (unitário, integração, sistema, aceitação, regressão e exploratório)
+*Planejamento de testes (critérios de aceitação, planos e casos de teste)
+*Ferramentas de testes utilizadas durante o semestre (Colab, GitHub, etc.)
+*Automação de testes e integração com CI/CD
+*Monitoramento e controle de qualidade (uso de métricas, rastreamento de bugs, observabilidade)
+
+Resposta:
+Durante o semestre, aprendi que a qualidade em software vai além de só fazer testes – ela faz parte de toda uma cultura de cuidado e atenção desde o início do projeto.
+Conheci vários tipos de testes, como o unitário (que testa partes pequenas do código), 
+integração (verifica se essas partes funcionam juntas), sistema (testa o sistema completo), 
+aceitação (confirma se atende o que foi pedido), regressão (garante que nada foi quebrado após mudanças) 
+e exploratório (onde o testador procura por erros de forma mais livre). Também entendi a importância de planejar bem os testes, 
+criando critérios de aceitação, planos e casos de teste para saber o que testar e como. Usamos ferramentas como Google Colab, GitHub, ReqRes e outras para criar, 
+documentar e executar testes. Aprendi ainda sobre automação de testes, que economiza tempo ao repetir testes automaticamente, e como isso se integra com CI/CD,
+ajudando no envio rápido e seguro de atualizações. Por fim, entendi como é importante monitorar a qualidade do software usando métricas, 
+rastreamento de erros (bugs) e observabilidade, para manter o sistema funcionando bem mesmo depois de publicado.
+
+4. Ferramentas e Sites Utilizados
+
+https://colab.research.google.com/ 
+https://github.com/
+
+Concusão:
+
+O que eu aprendi de mais importante foi que testar um software não é apenas procurar erros, 
+mas garantir que ele funcione bem e atenda às necessidades dos usuários.
+Aprendi que QA é uma parte essencial do desenvolvimento e que evita muitos problemas no futuro. 
+Eu vejo a área de QA como uma grande oportunidade na minha carreira, porque é uma área em crescimento e que exige atenção aos detalhes, 
+algo com que me identifico bastante. A ferramenta que mais me chamou atenção foi o GitHub, porque além de ajudar a organizar e salvar o código, 
+permite trabalhar em equipe e acompanhar todas as mudanças feitas no projeto.
