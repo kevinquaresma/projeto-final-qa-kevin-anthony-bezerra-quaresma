@@ -1,0 +1,78 @@
+Teste1 usando requests para criar um usuário via API e validar resposta
+
+import requests
+
+def test_criacao_usuario():
+    # Dados que serão enviados para criar o usuário
+    payload = {
+        "name": "Maria",
+        "job": "QA"
+    }
+    # Envia uma requisição POST para a API de criação de usuários
+    response = requests.post("https://reqres.in/api/users", json=payload)
+    # Verifica se o status HTTP é 201 (criado com sucesso)
+    assert response.status_code == 201, "Esperado status 201 para criação"
+    # Verifica se o campo "id" está presente na resposta (indica criação)
+    data = response.json()
+    assert "id" in data, "ID do usuário não encontrado na resposta"
+
+
+Teste2 unitário simples usando unittest
+
+import unittest
+
+# Função que será testada
+def multiplica(a, b):
+    return a * b
+
+class TestMultiplica(unittest.TestCase):
+
+    def test_multiplica_positiva(self):
+        self.assertEqual(multiplica(3, 4), 12)
+
+    def test_multiplica_por_zero(self):
+        self.assertEqual(multiplica(5, 0), 0)
+
+    def test_multiplica_negativa(self):
+        self.assertEqual(multiplica(-2, 3), -6)
+
+if __name__ == "__main__":
+    unittest.main()
+
+
+Teste3 Verificação de e-mail válido
+
+import unittest
+import re
+
+def verifica_email(email):
+    """
+    Função simples para validar formato básico de e-mail.
+    Retorna True se o formato estiver correto, False caso contrário.
+    """
+    padrao = r'^[\w\.-]+@[\w\.-]+\.\w+$'
+    return bool(re.match(padrao, email))
+
+class TestVerificaEmail(unittest.TestCase):
+
+    def test_email_valido(self):
+        self.assertTrue(verifica_email("usuario@example.com"))
+
+    def test_email_sem_arroba(self):
+        self.assertFalse(verifica_email("usuarioexample.com"))
+
+    def test_email_sem_dominio(self):
+        self.assertFalse(verifica_email("usuario@.com"))
+
+    def test_email_com_espaco(self):
+        self.assertFalse(verifica_email("usuario @example.com"))
+
+if __name__ == "__main__":
+    unittest.main()
+
+
+
+
+
+
+
